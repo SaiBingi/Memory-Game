@@ -1,0 +1,33 @@
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 600px;
+  margin: auto;
+}
+
+.flowers-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .flowers-container {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .flowers-container {
+    max-width: 350px;
+  }
+}
